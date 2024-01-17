@@ -6,7 +6,7 @@ function App() {
 
      return <div>
           <h1>
-           {count}
+           BROJ JE : {count}
           </h1>
           <div>
               <button onClick={()=>setCount(prevState => prevState + 1)}>+</button>
