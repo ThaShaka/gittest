@@ -6,11 +6,12 @@ function App() {
 
      return <div>
           <h1>
-           BROJ JE : {count}
-          </h1>
+              {count>10 ? "ASDASD" : "HAHSDUIASDHASID"} : {count}
+     </h1>
           <div>
               <button onClick={()=>setCount(prevState => prevState + 1)}>+</button>
-            <button onClick={()=>setCount(prevState => prevState - 1)}>-</button>
+              <button onClick={()=>setCount(prevState => prevState - 1)}>-</button>
+              <button onClick={()=>setCount(0)}>Reset</button>
           </div>
      </div>
 
